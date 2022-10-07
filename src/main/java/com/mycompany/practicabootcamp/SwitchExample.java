@@ -7,5 +7,21 @@ Por último, para el Switch, deberás crear la variable estacion, y distintos ca
 */
 
 public class SwitchExample {
-    
+    public static void main(String[] args){
+        String estacion="OTOÑO";
+        switch(estacion){
+            case "PRIMAVERA":
+                System.out.println("La estación escogida es primavera");
+            break;
+            case "VERANO":
+                System.out.println("La estación escogida es verano");
+            break;
+            case "OTOÑO":
+                System.out.println("La estación escogida es otoño");
+            break;
+            case "INVIERNO":
+                System.out.println("La estación escogida es invierno");
+            break;
+        }
+    }
 }
